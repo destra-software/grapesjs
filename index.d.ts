@@ -1350,9 +1350,9 @@ declare namespace grapesjs {
   type ModalEvent = 'modal:open' | 'modal:close';
 
   type CommandEvent =
-    | `run:${string}`
-    | `stop:${string}`
-    | `abort:${string}`;
+    | `run:${commandName}`
+    | `stop:${commandName}`
+    | `abort:${commandName}`;
 
   type GeneralEvent = 'canvasScroll' | 'undo' | 'redo' | 'load' | 'update';
 
