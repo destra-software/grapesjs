@@ -3168,6 +3168,11 @@ declare namespace grapesjs {
      * Get all types
      */
     getTypes(): any[];
+
+    /**
+     * Render.
+     */
+    render(): any;
   }
 
   interface SectorOptions {
