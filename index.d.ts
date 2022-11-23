@@ -1354,7 +1354,7 @@ declare namespace grapesjs {
     | 'stop:{commandName}'
     | 'run:{commandName}:before'
     | 'stop:{commandName}:before'
-    | 'abort:{commandName}';;
+    | 'abort:{commandName}';
 
   type GeneralEvent = 'canvasScroll' | 'undo' | 'redo' | 'load' | 'update';
 
